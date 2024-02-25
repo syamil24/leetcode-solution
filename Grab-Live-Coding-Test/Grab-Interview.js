@@ -1,10 +1,10 @@
-// Given an array arr of unique nonnegative integers, implement a function getDifferentNumber that finds the smallest nonnegative integer that is NOT in the array.
+/* Given an array arr of unique nonnegative integers, implement a function getDifferentNumber that finds the smallest nonnegative integer that is NOT in the array.
 
-// example 1: [1,2,3,4]  => 5
-// example 2: [3,1,5,6] => 2
+example 1: [1,2,3,4]  => 5
+example 2: [3,1,5,6] => 2
 
-// [2,3,4]
-//1,3,5,6
+[2,3,4]
+1,3,5,6 */
 
 function getDifferentNumber(numbers) {
   let sortedArray = numbers.sort();
